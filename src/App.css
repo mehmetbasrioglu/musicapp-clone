@@ -1,39 +1,275 @@
 .App {
   text-align: center;
 }
-
+body{
+  background: white!important;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.main{
+  flex: 1;
+}
+.render-div{
+  background: black;
+  position: relative;
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+  height: 40rem;
+  background-size: cover;
+	display: block;
+ }
+
+
+
+.render-video{
+ backdrop-filter: blur(15px) brightness(30%);
+  width: 100%;
+  height: 100%;
 }
 
-.App-header {
-  min-height: 100vh;
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: 4rem!important;
+  margin-bottom: 2rem!important;
+  background: #2c2f33!important;
+  border-radius: 20px!important;
+  
+}
+
+.maks{
+
+  max-width: 100%!important;
+  max-height: 40rem!important;
+  overflow: hidden;
+}
+
+.header{
   display: flex;
   flex-direction: column;
+}
+
+.headeravatarsection{
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: -0.1rem;
+  margin-bottom: 15px!important;
+}
+.headeravatarsection_avatar {
+  border: 2px solid #fe2c55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 180px;
+}
+.headeravatarsection_avatar img{
+  width: 3rem;
+  height: 3rem;
+  padding: 1px;
+  
+  border-radius: 180px;
+}
+
+
+.headername{
+  display: flex;
+  flex-direction: column;
+  margin:0.1rem;
+  margin-left: 1rem;
+  color: white;
+  flex: 1;
+}
+.headername h4{
+  font-size: 15px;
+}
+.headername p{
+  font-weight: 100;
+  margin-top: -10px;
+  font-size: 14px;
+  color: #d9d9d9;
+}
+
+.followsection button{
+  border: none!important;
+  padding: 10px 35px;
+  background: transparent;
+  border:2px solid #fe2c55!important;
+  color: #fe2c55;
+  border-radius: 10px;
+}
+
+.description{
+ margin: 5px;
+ color: #d9d9d9;
+}
+
+.music{
+ display: flex;
+  margin: 5px;
+  margin-top: 30px;
+  width: 200px;
+  color: white;
+}
+
+#desc{
+  color: white!important;
+}
+
+.reactsection{
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: -0.1rem;
+  margin-bottom: 15px!important;
+}
+.reactsection_main {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 180px;
+  color: white;
+}
+.reactsection_main span{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.react_flex{
+
+  flex: 1;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.embed{
+  margin: 5px;
+}
+.embed svg{
+  margin: 5px;
+}
+.classLinkArea{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+
+  border-radius: 10px;
+  width: 90%;
+
+}
+.classLinkArea input{
+  border: none!important;
+  padding: 10px;
+  background: transparent;
+  color: #fe2c55;
+  border-radius: 10px;
+  flex:1;
+  margin-right: 10px;
+}
+.classLinkArea button{
+  border: none!important;
+  padding: 10px;
+  background: transparent;
+
+  color: #fe2c55;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+.commentarea {
+  color: white;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.commentarea h4{
+  color: #fe2c55;
+  font-weight: bolder;
+}
+
+.commentarea button{
+  border: none!important;
+  padding: 10px 160px;
+  background: #fe2c55;
+
+  color: white;
+  border-radius: 10px;
+}
+
+.videocol{
+  position: relative;
+}
+.videocol .prev{
+  position: absolute;
+  top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  left: 10%;
+  outline: 0!important;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: white!important;
+  background: transparent;
+  border: none;
+  background: gray;
+  border-radius: 180px;
+}
+.videocol .next{
+  position: absolute;
+  top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  left: 90%;
+  outline: 0!important;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: white!important;
+  background: transparent;
+  border: none;
+  background: gray;
+  border-radius: 180px;
+}
+.videocol .prev svg{
+  font-size: 40px;
+}
+.videocol .next svg{
+  font-size: 40px;
+}
+.pause{
+  position: absolute;
+  top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%;
+  outline: 0!important;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: white!important;
+  background: transparent;
+  border: none;
+  border-radius: 180px;
+  z-index: 1;
+}
+.pause svg{
+    font-size: 120px;
+}
+
+.vol{
+  position: absolute;
+  top: 10%;  /* position the top  edge of the element at the middle of the parent */
+  left: 10%;
+  outline: 0!important;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: white!important;
+  background: gray;
+  border: none;
+  border-radius: 180px;
+  z-index: 1;
+}
+.vol svg{
+  font-size: 30px;
 }
