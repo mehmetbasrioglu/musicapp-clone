@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/musicapp-clone/static/css/main.3d948652.chunk.css",
+    "main.js": "/musicapp-clone/static/js/main.c4edd624.chunk.js",
+    "main.js.map": "/musicapp-clone/static/js/main.c4edd624.chunk.js.map",
+    "runtime-main.js": "/musicapp-clone/static/js/runtime-main.afb9ca9f.js",
+    "runtime-main.js.map": "/musicapp-clone/static/js/runtime-main.afb9ca9f.js.map",
+    "static/css/2.95f25948.chunk.css": "/musicapp-clone/static/css/2.95f25948.chunk.css",
+    "static/js/2.e9f94cde.chunk.js": "/musicapp-clone/static/js/2.e9f94cde.chunk.js",
+    "static/js/2.e9f94cde.chunk.js.map": "/musicapp-clone/static/js/2.e9f94cde.chunk.js.map",
+    "index.html": "/musicapp-clone/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/musicapp-clone/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.3d948652.chunk.css.map": "/musicapp-clone/static/css/main.3d948652.chunk.css.map",
+    "static/js/2.e9f94cde.chunk.js.LICENSE.txt": "/musicapp-clone/static/js/2.e9f94cde.chunk.js.LICENSE.txt",
+    "static/media/logo.db36153e.svg": "/musicapp-clone/static/media/logo.db36153e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afb9ca9f.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.e9f94cde.chunk.js",
+    "static/css/main.3d948652.chunk.css",
+    "static/js/main.c4edd624.chunk.js"
+  ]
+}
